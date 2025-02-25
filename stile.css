@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #23A6F0; */
+    background-color: #0E4DA4;
+}
+.continer{
+    max-width: 1240px;
+    margin: auto;
+}
+.shakl{
+    width: 1800px;
+    height: 250px;
+    background-color: white;
+   position: fixed;
+   margin-top: -10px;
+   margin-left: 0;
+   margin-bottom: 0;
+   transform: rotate(-5deg);
+   transition: 0.5s;
+
+}
+.name{
+    margin-top: 25px;
+    color: white;
+    display: flex;
+
+}
+ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    /* padding-left: -30px; */
+}
+.link{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    
+}
+.header{
+    display: flex;
+}
+.welcome{
+    color: cornflowerblue;
+    margin-top: 150px;
+    text-align: center;
+
+}
+.selling{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 20px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.but1{
+    background-color:darkturquoise;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border-color:darkturquoise ;
+    margin: 20px 0px 20px 5px;
+}
+.but2{
+    font-size: 15px;
+    background-color: #0E4DA4 ;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color:  cornflowerblue;
+    border-color:darkturquoise ;
+    margin: 20px 0px 20px 5px;
+}
+.tugma{
+    text-align: center;
+    margin: 20px;
+    gap: 25px;
+    margin: 20px;
+}
+.login{
+    color:  cornflowerblue;
+    margin-top: 35px;
+    gap: 25px;
+    margin-right: 60px;
+}
+.button{
+    width: 120px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    border-color:darkturquoise ;
+    color: white;
+}
